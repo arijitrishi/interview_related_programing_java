@@ -38,6 +38,7 @@ public class LongestPalindromeSubstring {
 
         int result = longestPalindromeLength(input);
         System.out.println("Length of longest palindromic substring: " + result);
+         scanner.close();
     }
 }
 
